@@ -14,8 +14,10 @@ The folder includes the predefined training/testing catalogs, **one** saved pair
 | `testing_events.csv` | **610** held-out reference events for testing. |
 | `model_baz_5layer_iter01.h5` | Trained BAZ network, iteration 01. |
 | `model_inc_5layer_iter01.h5` | Trained INC network, iteration 01. |
-| `mseed.zip` | Archive containing 7,179 per-event NN.WAK MiniSEED files (`mseed/WAK/`) and a download log (`mseed/download_log.txt`). |
 | `README.md` | This guide. |
+
+| `mseed.zip` | Archive containing 7,179 per-event NN.WAK MiniSEED files (`mseed/WAK/`) and a download log (`mseed/download_log.txt`). |
+*This is available under the repository's GitHub Releases (v0.1.0). Download the archive and extract it into this folder to train the models. 
 
 The two CSV files contain **4,995 distinct catalog entries** in total. Relevant columns for these scripts are:
 

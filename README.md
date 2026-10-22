@@ -16,8 +16,20 @@ The folder includes the predefined training/testing catalogs, **one** saved pair
 | `model_inc_5layer_iter01.h5` | Trained INC network, iteration 01. |
 | `README.md` | This guide. |
 
-| `mseed.zip` | Archive containing 7,179 per-event NN.WAK MiniSEED files (`mseed/WAK/`) and a download log (`mseed/download_log.txt`). |
-*This is available under the repository's GitHub Releases (v0.1.0). Download the archive and extract it into this folder to train the models. 
+### Waveform Data
+
+The waveform archive (`mseed.zip`) is available from the
+[GitHub Releases page](https://github.com/likean95-oss/single-station-CNN-location-workflow/releases).
+
+The archive contains:
+- 7,179 per-event NN.WAK MiniSEED waveform files.
+- A waveform download log (`mseed/download_log.txt`).
+
+**To use the waveform data:**
+1. Open the Releases page linked above.
+2. Download `mseed.zip` from the release assets.
+3. Extract the archive into this folder.
+4. The waveforms should then be located in `mseed/WAK/`.
 
 The two CSV files contain **4,995 distinct catalog entries** in total. Relevant columns for these scripts are:
 

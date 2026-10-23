@@ -32,7 +32,7 @@ The waveform files were extracted and organized into event-based segments for th
 Original data ownership and attribution remain with the contributing seismic network.
 
 The waveform archive (`mseed.zip`) is available from the
-[GitHub Releases page](https://github.com/likean95-oss/single-station-CNN-location-workflow/releases).
+[GitHub Releases page](https://github.com/likean-seis/single-station-CNN-location-workflow/releases).
 
 The archive contains:
 - 7,179 per-event NN.WAK MiniSEED waveform files.

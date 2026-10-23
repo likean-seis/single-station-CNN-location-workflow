@@ -31,6 +31,21 @@ The archive contains:
 3. Extract the archive into this folder.
 4. The waveforms should then be located in `mseed/WAK/`.
 
+Waveform Data Attribution
+
+The MiniSEED waveforms distributed in mseed.zip are event-based waveform segments from station NN.WAK of the Nevada Seismic Network, operated by the University of Nevada, Reno (UNR). The original seismic data were accessed through the EarthScope Consortium (formerly IRIS) data services.
+
+Original data source:
+
+Nevada Seismic Network (NN): https://doi.org/10.7914/SN/NN
+
+EarthScope Consortium: https://www.earthscope.org/
+
+The waveform files were extracted and organized into event-based segments for this research. EarthScope's default data license is Creative Commons Attribution 4.0 (CC BY 4.0), unless more restrictive terms have been specified by the original data provider.
+
+Original data ownership and attribution remain with the contributing seismic network.
+
+
 The two CSV files contain **4,995 distinct catalog entries** in total. Relevant columns for these scripts are:
 
 | Column | Usage |
